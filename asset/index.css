@@ -1,0 +1,110 @@
+.carousel-actu img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.carousel-actu .slick-dots li button::before {
+    /* font-size: 6px; */
+    /* color: black; */
+    font-size: 10px;
+    color: #E94E1B;
+}
+  
+.carousel-actu .slick-dots li.slick-active button::before {
+    /* color: black; */
+    color: #E94E1B;
+}
+  
+
+.div-ajout {
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    background: #f5f5f5;
+    border: 2px solid #E94E1B;
+    border-radius: 30px;
+    box-shadow: 2px 8px 10px 0px rgba(128, 128, 128, 0.411);
+}
+
+.div-ajout h3 {
+    padding: 1rem;
+    margin: 0;
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+.div-ajout span {
+    padding: 1rem;
+}
+
+.div-ajout div {
+    display: flex;
+    justify-content: end;
+    margin: 0rem 1rem 1rem 0.5rem;
+    font-size: 15pt;
+}
+
+.div-ajout div:hover {
+    text-decoration: underline;
+}
+
+.carousel-ajouts .slick-prev, .carousel-ajouts .slick-next {
+    font-size: 0px;
+    line-height: 0px;
+    width: 80px;
+    height: 80px;
+    transform: translate(0px, -50%);
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+.carousel-ajouts  .slick-prev::before {
+    content: '+';
+}
+
+.carousel-ajouts .slick-next::before {
+    content: '+';
+}
+
+.carousel-ajouts .slick-prev::before, .carousel-ajouts .slick-next::before {
+    font-size: 80px;
+    line-height: 0.5;
+    opacity: 1;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-ajouts .slick-prev {
+    left: -100px;
+}
+
+.carousel-ajouts .slick-next {
+    right: -100px;
+}
+
+.carousel-ajouts .slick-prev:hover,
+.carousel-ajouts .slick-next:hover{
+    color: transparent;
+    outline: none;
+    background: #E94E1B;
+}
+
+.carousel-ajouts div.slick-list:nth-child(2) > div:nth-child(1) {
+    min-height: 25rem;
+   }   
+
+
+.div-qqnac {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .div-qqnac > img {
+    height: 300px;
+    margin-right: 2rem;
+  }
+  
+  .ques-qun-nac {
+    margin: 3rem auto;
+  }
+  

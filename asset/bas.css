@@ -1,0 +1,63 @@
+footer {
+    background: #E94E1B;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bas {  display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "liens reseaux lettre";
+}
+  
+footer .liens { 
+    grid-area: liens; 
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3rem;
+    margin: 1rem 0;
+}
+  
+footer .reseaux { 
+    grid-area: reseaux; 
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+footer .reseaux img {
+    transition: 300ms;
+}
+footer .reseaux img:hover {
+    scale: 1.20;
+    transition: 300ms;
+}
+  
+footer .lettre { 
+    grid-area: lettre; 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 1rem 0;
+}
+
+footer form {
+    display: flex;
+    align-items: center;
+}
+
+footer form button:hover {
+    background-color: rgba(255, 162, 131, 0.725);
+    transition: 0.2s;
+}
+
+footer form img {
+    width: 27px;
+}
