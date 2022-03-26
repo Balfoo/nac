@@ -61,3 +61,18 @@ footer form button:hover {
 footer form img {
     width: 27px;
 }
+
+@media (max-width:800px) { 
+
+  footer .bas {
+    grid-template-columns: 1fr;
+    grid-template-areas: "lettre" "reseaux" "liens";
+    text-align: center;
+  }
+  
+  footer .lettre {
+    /* align-items: end; */
+    align-items: center;
+  }
+  
+}

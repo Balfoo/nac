@@ -1,0 +1,48 @@
+.bouton_rouge {
+    background: #E94E1B;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.bouton_vert {
+    background: #2FAC66;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.bouton_jaune {
+    background: #FFCF02;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.bouton_gris {
+    background: #888888;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.bouton_rouge:hover,
+.bouton_vert:hover,
+.bouton_jaune:hover,
+.bouton_gris:hover {
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.4); 
+    box-shadow: 3px 6px 14px 0px rgba(0,0,0,0.4);
+    transition: 200ms;
+}

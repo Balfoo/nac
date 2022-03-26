@@ -1,110 +1,257 @@
 .carousel-actu img {
-    width: 100%;
-    border-radius: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .carousel-actu .slick-dots li button::before {
-    /* font-size: 6px; */
-    /* color: black; */
-    font-size: 10px;
-    color: #E94E1B;
+  /* font-size: 6px; */
+  /* color: black; */
+  font-size: 10px;
+  color: #E94E1B;
 }
-  
+
 .carousel-actu .slick-dots li.slick-active button::before {
-    /* color: black; */
-    color: #E94E1B;
+  /* color: black; */
+  color: #E94E1B;
 }
-  
+
 
 .div-ajout {
-    display: flex !important;
-    flex-direction: column;
-    margin: 0 0.5rem;
-    background: #f5f5f5;
-    border: 2px solid #E94E1B;
-    border-radius: 30px;
-    box-shadow: 2px 8px 10px 0px rgba(128, 128, 128, 0.411);
+  display: flex !important;
+  flex-direction: column;
+  margin: 0 0.5rem;
+  background: #f5f5f5;
+  border: 2px solid #2FAC66;
+  background-color: #2FAC66;
+  border-radius: 30px;
+  color: white;
+  /*box-shadow: 2px 8px 10px 0px rgba(128, 128, 128, 0.411);*/
+}
+
+.div-ajout a {
+  color: white;
 }
 
 .div-ajout h3 {
-    padding: 1rem;
-    margin: 0;
-    font-weight: normal;
-    font-size: 20pt;
+  padding: 1rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 20pt;
 }
 
 .div-ajout span {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .div-ajout div {
-    display: flex;
-    justify-content: end;
-    margin: 0rem 1rem 1rem 0.5rem;
-    font-size: 15pt;
+  display: flex;
+  justify-content: end;
+  margin: 0rem 1rem 1rem 0.5rem;
+  font-size: 15pt;
 }
 
 .div-ajout div:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.carousel-ajouts .slick-prev, .carousel-ajouts .slick-next {
-    font-size: 0px;
-    line-height: 0px;
-    width: 80px;
-    height: 80px;
-    transform: translate(0px, -50%);
-    border: 3px solid black;
-    border-radius: 100%;
+.slick-slide img {
+  display: block;
+  border-radius: 15px;
+  padding: 0.5rem;
 }
 
-.carousel-ajouts  .slick-prev::before {
-    content: '+';
+.carousel-ajouts .slick-prev,
+.carousel-ajouts .slick-next {
+  font-size: 0px;
+  line-height: 0px;
+  width: 80px;
+  height: 80px;
+  transform: translate(0px, -50%);
+  border: 3px solid black;
+  border-radius: 100%;
+}
+
+.carousel-ajouts .slick-prev::before {
+  content: '+';
 }
 
 .carousel-ajouts .slick-next::before {
-    content: '+';
+  content: '+';
 }
 
-.carousel-ajouts .slick-prev::before, .carousel-ajouts .slick-next::before {
-    font-size: 80px;
-    line-height: 0.5;
-    opacity: 1;
-    color: black;
-    font-weight: bold;
+.carousel-ajouts .slick-prev::before,
+.carousel-ajouts .slick-next::before {
+  font-size: 80px;
+  line-height: 0.5;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
 }
 
 .carousel-ajouts .slick-prev {
-    left: -100px;
+  left: -100px;
 }
 
 .carousel-ajouts .slick-next {
-    right: -100px;
+  right: -100px;
 }
 
 .carousel-ajouts .slick-prev:hover,
-.carousel-ajouts .slick-next:hover{
-    color: transparent;
-    outline: none;
-    background: #E94E1B;
+.carousel-ajouts .slick-next:hover {
+  color: transparent;
+  outline: none;
+  background: #2FAC66;
 }
 
-.carousel-ajouts div.slick-list:nth-child(2) > div:nth-child(1) {
-    min-height: 25rem;
-   }   
+.carousel-ajouts div.slick-list:nth-child(2)>div:nth-child(1) {
+  min-height: 25rem;
+}
 
+/**/
 
 .div-qqnac {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-qqnac>img {
+  height: 300px;
+  margin-right: 2rem;
+}
+
+.ques-qun-nac {
+  margin: 3rem auto;
+  background: #FF9C7B;
+  padding: 4rem 0;
+}
+
+.div-qqnac>div>p {
+  text-align: justify;
+  margin-right: 1rem;
+}
+
+
+/**/
+
+.les-animaux {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em 1em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "rongeurs oiseaux"
+    "reptiles poules";
+  margin: 5rem auto;
+}
+
+.rongeurs {
+  grid-area: rongeurs;
+}
+
+.oiseaux {
+  grid-area: oiseaux;
+}
+
+.reptiles {
+  grid-area: reptiles;
+}
+
+.poules {
+  grid-area: poules;
+}
+
+
+.les-animaux img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.div-animaux {
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.selection-animaux {
+  display: flex;
+}
+
+.selection-animaux>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+.selection-animaux>a>span {
+  font-size: 10pt;
+}
+
+.div-animaux.rongeurs {
+  background-color: #73D477;
+}
+
+.div-animaux.oiseaux {
+  background-color: #FF9C7B;
+}
+
+.div-animaux.reptiles {
+  background-color: #FFE782;
+}
+
+.div-animaux.poules {
+  background-color: #DADADA;
+}
+
+.div-animaux .titre {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.div-animaux .input {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/**/
+
+
+.lien-carte img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.description {
+  background: #FF9C7B;
+  border-radius: 0 0 15px 15px;
+  padding: 1rem;
+  margin-top: -4px;
+}
+
+.lien-carte {
+  margin: 5rem auto;
+}
+
+
+
+@media (max-width:800px) {
+
+  .div-qqnac {
+    flex-direction: column-reverse;
   }
-  
-  .div-qqnac > img {
-    height: 300px;
-    margin-right: 2rem;
+
+  .div-qqnac img {
+    width: 100%;
   }
-  
-  .ques-qun-nac {
-    margin: 3rem auto;
+
+  .les-animaux {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "rongeurs""oiseaux""reptiles""poules";
   }
-  
+
+
+}

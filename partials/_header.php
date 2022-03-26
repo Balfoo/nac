@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>NAC</title>
+
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width"/>
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="asset/style.css"> 
@@ -11,7 +14,10 @@
     <link rel="stylesheet" href="asset/haut.css">
     <link rel="stylesheet" href="asset/bas.css">
     <link rel="stylesheet" href="asset/index.css">
+    <link rel="stylesheet" href="asset/bouton.css">
+    <link rel="stylesheet" href="asset/animal.css">
 
+    <!-- Carousel -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
@@ -37,8 +43,8 @@
 
       <nav class="div3">
         <a href="index.php">Accueil</a>
-        <a href="boutique.php">les NAC</a>
-        <a href="carte/index.html">La carte</a>
+        <a href="animal.php">les NAC</a>
+        <a href="animaux.php">La carte</a>
         <a href="contact.php">Qui sommes nous ?</a>
         <form action="">
           <input class="recherche" type="text" placeholder="Chercher sur le site">

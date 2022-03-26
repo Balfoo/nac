@@ -1,0 +1,163 @@
+.nom_animal {
+    background-color: #73D477;
+    text-align: center;
+    padding: 0.2rem 0;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.infos_animal {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "infos_gauche presentation";
+}
+
+/*ASIDE*/
+/**/
+
+.infos_gauche {
+    grid-area: infos_gauche;
+}
+
+.presentation {
+    grid-area: presentation;
+}
+
+
+.infos_animal img {
+    width: 100%;
+}
+
+.presentation_rapide_picto {
+    display: flex;
+    border-top: 2px solid #73D477;
+    padding: 0.2rem 0;
+}
+
+.presentation_rapide_picto div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+div.presentation_rapide_picto:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.presentation_rapide_picto img {
+    width: 25%;
+    height: auto;
+}
+
+.image_principal {
+    border-radius: 10px 10px 0 0;
+}
+
+.presentation_rapide {
+    background: #A6EBA9;
+    border-radius: 10px;
+}
+
+.div_presentation_rapide_picto {
+    padding: 1rem;
+}
+
+.type {
+    background: #73D477;
+    padding: 0.2rem 0.8rem;
+    border-radius: 1rem;
+}
+
+/**/
+
+.photos {
+    border: 1px solid #73D477;
+    border-radius: 10px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.photos .titre_photos {
+    /* text-align: center; */
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.photos img:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+/*ARTICLE (présentation)*/
+
+.sommaire {
+    display: flex;
+    flex-direction: column;
+    background-color: #A6EBA9;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.sommaire .titre_sommaire {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.sommaire a {
+    margin-left: 1rem;
+    border-top: 2px solid #73D477;
+    padding: 0.5rem 0;
+    transition: 100ms;
+}
+.sommaire a:hover {
+    background: #73D477;
+    transition: 100ms;
+}
+
+/**/
+
+.presentation_texte h2 {
+    font-size: 13pt;
+    background: #A6EBA9;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .presentation_texte p {
+    text-align: justify;
+  }
+
+/**/
+
+.photos_mobile {
+    display: none;
+}
+
+  
+  @media (max-width:800px) {
+    .infos_animal {
+        /* grid-template-columns: 0.6fr 1.4fr; */
+        /* grid-template-areas: "infos_gauche presentation"; */
+        grid-template-columns: 1fr;
+        grid-template-areas: "infos_gauche" "presentation";
+      }
+      
+      .photos {
+        display: none;
+      }
+        
+      .sommaire {
+        margin-top: 1rem;
+      }
+
+      .photos_mobile {
+          display: block;
+      }
+
+  }
+
+  

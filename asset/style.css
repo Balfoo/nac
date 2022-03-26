@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -11,6 +12,7 @@ html, body {
 .container {
     max-width: 1000px;
     margin: 0 auto; /*centrer*/
+    padding: 0rem 1rem;
 }
 
 a {
@@ -35,4 +37,12 @@ button {
     border-radius: 5px;
     transition: 0.2s;
     cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .recherche {
+        /* padding-left: 5px; */
+        padding: 0.5rem 0.2rem;
+        margin: 0.2rem 0;
+    }
 }

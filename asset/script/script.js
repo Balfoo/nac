@@ -6,13 +6,34 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
-    arrows: false
+    arrows: false,
     });
 });
 
   $(document).ready(function(){
     $('.carousel-ajouts').slick({
+      centerMode: true,
+      centerPadding: '60px',
       slidesToShow: 3,
-    slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 900,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 580,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
     });
 });
