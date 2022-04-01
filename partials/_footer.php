@@ -1,5 +1,9 @@
   <footer>
     <div class="bas container">
+
+    <div class="fleche_haut">
+      <a href="#main-header" title="Aller en haut de la page"><img src="asset/img/fleche_haut.svg" alt="Aller en haut de la page"></a>
+    </div>
         
       <nav class="liens">
         <a href="">Plan du site</a>

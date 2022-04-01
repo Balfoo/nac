@@ -90,6 +90,9 @@
     width: 20px;
 }
 
+.header-toogle {
+    display: none;
+}
 
 @media (max-width:800px) {
 
@@ -100,7 +103,7 @@
     .header {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "div1""div2""div3";
+        grid-template-areas: "div1" "div2" "div3";
     }
 
     .header .div2 {
@@ -111,6 +114,59 @@
     .header .div3 a {
         width: 100%;
         text-align: center;
+    }
+
+    .form_recherche {
+        width: 100%;
+    }
+
+    .form_recherche input {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .form_recherche button img {
+        margin: auto 1rem;
+    }
+
+
+
+    /*MENU DYNAMIQUE*/
+    /*Fonctionnement*/
+
+    .header-toogle {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        display: block;
+    }
+
+    .header-toogle img {
+        width: 200%;
+    }
+
+    .header-toogle-close {
+        display: none;
+    }
+
+    .header-menu {
+        max-height: 0;
+        overflow: hidden;
+        display: block;
+        transition: max-height 300ms ease-in-out
+    }
+
+    #main-header:target .header-toogle-close {
+        display: inline;
+    }
+
+    #main-header:target .header-toogle-open {
+        display: none;
+    }
+
+    #main-header:target .header-menu {
+        max-height: 24rem;
+        transition: max-height 300ms ease-in-out
     }
 
 }

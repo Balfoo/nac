@@ -2,6 +2,7 @@ footer {
     background: #E94E1B;
     border-radius: 20px 20px 0px 0px;
     color: white;
+    margin-top: 1rem;
 }
 footer a {
     color: white;
@@ -61,6 +62,19 @@ footer form button:hover {
 footer form img {
     width: 27px;
 }
+
+/*flèche haut*/
+.fleche_haut {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 100ms;
+   }
+.fleche_haut:hover {
+    background: rgba(255, 156, 123, 0.35);
+    border-radius: 100%;
+    transition: 100ms;
+}   
 
 @media (max-width:800px) { 
 

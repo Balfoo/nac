@@ -1,4 +1,6 @@
-<?php require_once('config/bd.php'); ?>
+<?php require_once('config/bd.php'); 
+include('../partials/_header.php');?>
+
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
@@ -10,6 +12,12 @@
   <link rel="stylesheet" href="spectre.min.css" />
   <link rel="stylesheet" href="spectre-icons.min.css" />
   <link rel="stylesheet" href="spectre-exp.min.css" />
+
+  <link rel="stylesheet" href="../asset/normalize.css">
+  <link rel="stylesheet" href="../asset/haut.css">
+  <link rel="stylesheet" href="../asset/bas.css">
+  <link rel="stylesheet" href="../asset/bouton.css">
+  <link rel="stylesheet" href="../asset/style.css"> 
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -62,7 +70,7 @@
     <!-- Ici s'affichera la carte -->
   </div>
 
-  <a class="btn btn-primary" href="formulaire.php" target="_blank">
+  <a class="btn btn-primary demande_ajout bouton_rouge" href="formulaire.php" target="_blank">
       <i class="fas fa-times fa-fw"></i>
       Demande d'ajout d'animal
     </a>
@@ -106,3 +114,5 @@
 </body>
 
 </html>
+
+<?php include('../partials/_footer.php'); ?>

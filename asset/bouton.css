@@ -1,7 +1,7 @@
 .bouton_rouge {
-    background: #E94E1B;
+    background: #E94E1B !important;
+    color: white !important;
     border-radius: 15px;
-    color: white;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;

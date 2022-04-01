@@ -15,51 +15,6 @@
   color: #E94E1B;
 }
 
-
-.div-ajout {
-  display: flex !important;
-  flex-direction: column;
-  margin: 0 0.5rem;
-  background: #f5f5f5;
-  border: 2px solid #2FAC66;
-  background-color: #2FAC66;
-  border-radius: 30px;
-  color: white;
-  /*box-shadow: 2px 8px 10px 0px rgba(128, 128, 128, 0.411);*/
-}
-
-.div-ajout a {
-  color: white;
-}
-
-.div-ajout h3 {
-  padding: 1rem;
-  margin: 0;
-  font-weight: normal;
-  font-size: 20pt;
-}
-
-.div-ajout span {
-  padding: 1rem;
-}
-
-.div-ajout div {
-  display: flex;
-  justify-content: end;
-  margin: 0rem 1rem 1rem 0.5rem;
-  font-size: 15pt;
-}
-
-.div-ajout div:hover {
-  text-decoration: underline;
-}
-
-.slick-slide img {
-  display: block;
-  border-radius: 15px;
-  padding: 0.5rem;
-}
-
 .carousel-ajouts .slick-prev,
 .carousel-ajouts .slick-next {
   font-size: 0px;
@@ -141,7 +96,7 @@
   grid-auto-flow: row;
   grid-template-areas:
     "rongeurs oiseaux"
-    "reptiles poules";
+    "reptiles poissons";
   margin: 5rem auto;
 }
 
@@ -157,8 +112,8 @@
   grid-area: reptiles;
 }
 
-.poules {
-  grid-area: poules;
+.poissons {
+  grid-area: poissons;
 }
 
 
@@ -200,7 +155,7 @@
   background-color: #FFE782;
 }
 
-.div-animaux.poules {
+.div-animaux.poissons {
   background-color: #DADADA;
 }
 
@@ -214,6 +169,20 @@
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+}
+
+.div-animaux .titre span::before, .div-animaux .titre span::after {
+  content:'';
+  width: 10vw;
+  border-bottom:rgba(255,255,255,0.3) solid;
+  display:inline-block;
+  vertical-align:middle;
+}
+.div-animaux .titre span::before {
+  margin-right: 1rem;
+}
+.div-animaux .titre span::after {
+  margin-left: 1rem;
 }
 
 /**/
@@ -250,7 +219,7 @@
   .les-animaux {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "rongeurs""oiseaux""reptiles""poules";
+    grid-template-areas: "rongeurs" "oiseaux" "reptiles" "poissons";
   }
 
 

@@ -1,0 +1,38 @@
+.cartes_recherche_animaux {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 2rem auto;
+}
+
+.barre_recherche_animaux {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.barre_recherche_animaux #saisieFiltre {
+    width: 50vw;
+    text-align: center;
+}
+   
+
+/**/
+
+@media (max-width:800px) {
+    .cartes_recherche_animaux {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .barre_recherche_animaux #saisieFiltre {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:600px) {
+    .cartes_recherche_animaux {
+        grid-template-columns: 1fr;
+    }
+}
+   

@@ -62,10 +62,10 @@ require('partials/_header.php');
       $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $passwd, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $requete = "INSERT INTO animaux VALUES(NULL,'" . $_POST['nom'] . "', '" . $_POST['Catégorie'] . "', '" . $_POST['Image'] . "', '" . $_POST['Description'] . "')";
+        $requete = "INSERT INTO animaux VALUES(NULL,'" . addslashes($_POST['nom']) . "', '" . addslashes($_POST['Catégorie']) . "', '" . $_POST['Image'] . "', '" . addslashes($_POST['Description']) . "')";
         $resultat = $pdo->query($requete);
 
-        $requete = "INSERT INTO villes(Nom, lat, lon) VALUES('".$_POST['nom'] . "','" . $_POST['latitude'] . "','" . $_POST['longitude'] . "')";
+        $requete = "INSERT INTO villes(Nom, lat, lon) VALUES('".addslashes($_POST['nom']) . "','" . $_POST['latitude'] . "','" . $_POST['longitude'] . "')";
         $requete = $pdo->query($requete);
 
             if ($resultat)

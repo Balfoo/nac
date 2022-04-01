@@ -5,3 +5,66 @@
   width: 100%;
   margin: 0;
 }
+
+header a:visited,
+footer a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+footer a {
+  color: white !important;
+}
+
+/*Formulaire*/
+
+.div-form {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 2rem auto;
+}
+
+.demande_ajout {
+  margin: 1rem;
+  display: flex !important;
+  align-items: center;
+  width: fit-content;
+
+}
+
+.contact_ajout {
+  border: 2px solid #DADADA;
+  border-radius: 10px;
+  margin: 1rem auto !important;
+  padding: 1rem 1rem !important;
+}
+
+.invalid-feedback {
+  color: #E94E1B;
+}
+
+.fw-bolder {
+  color: #2FAC66;
+}
+
+.text-danger {
+  color: #E94E1B;
+}
+
+#submitButton {
+  margin-top: 0.5rem;
+}
+
+
+/*cartes*/
+
+.card.bg-dark {
+  background: #2FAC66 !important;
+  color: #fff;
+  border-radius: 10px;
+}
