@@ -1,4 +1,5 @@
  <?php
+ $titre="Animaux";
 include('partials/_header.php');
 ?>
 

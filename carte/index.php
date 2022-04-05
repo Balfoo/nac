@@ -1,4 +1,7 @@
-<?php require_once('config/bd.php'); 
+<?php 
+$titre="Carte";
+$carte=true;
+require_once('config/bd.php'); 
 include('../partials/_header.php');?>
 
 

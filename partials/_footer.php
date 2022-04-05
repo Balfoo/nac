@@ -7,9 +7,9 @@
         
       <nav class="liens">
         <a href="">Plan du site</a>
-        <a href="">Mentions légales</a>
+        <a href="mentions_legales.php">Mentions légales</a>
         <a href="">Presse</a>
-        <a href="">Contact</a>
+        <a href="contact.php">Contact</a>
       </nav>
 
       <div class="reseaux">

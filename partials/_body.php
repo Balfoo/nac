@@ -56,16 +56,9 @@
 		<h2>Qu'es ce qu'un NAC ?</h2>
 		<div class="div-qqnac">
 			<div>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in fermentum nisl.
-					Cras nibh magna, faucibus in tincidunt non, sollicitudin quis nunc. Praesent eu mi
-					eget lorem volutpat vehicula nec sollicitudin dui. Donec vitae purus sit amet orci
-					ultricies vestibulum. Aliquam sit amet maximus ante, sit amet dapibus felis.
-					Morbi quis felis eu ipsum egestas ultrices sed rutrum lorem. Aliquam dapibus
-					mattis metus, sed dapibus sapien sollicitudin eget. Fusce lacinia sed elit laoreet euismod.
-					Maecenas volutpat nec magna eu sodales. Etiam posuere massa eget velit vehicula, efficitur
-					aliquam quam feugiat. <br />
-					Vestibulum cursus tempor metus at malesuada. Nulla a nibh vitae tortor blandit rutrum. Sed
-					ac rutrum nisl. Aliquam molestie
+				<p>  Les Nouveaux Animaux de Compagnie (NAC) comprennent des animaux communs (rongeur, oiseau, poisson, poule...) au plus exotiques (serpent, araignées, lézard…) <br /><br />
+						Ils sont depuis des années de plus en plus populaires dans les foyers, ce qui nous offre beaucoup de visiteurs. <br /><br />
+						D’après une enquête de l’IFOP, en 2019 1 français sur 2 possède un NAC. Parmi les plus populaires, les poissons sont les plus nombreux en France avec 32 millions. Le reste des NAC représentent 6 millions d’animaux, dont 4 millions de mammifères et 2 millions d'animaux plus exotiques.
 				</p>
 				<input class="bouton_rouge" type="button" value="En savoir plus">
 			</div>

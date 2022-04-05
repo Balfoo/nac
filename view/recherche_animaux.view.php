@@ -1,4 +1,5 @@
 <?php
+$titre="Rechercher un animal";
 include('partials/_header.php');
 ?>
 

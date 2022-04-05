@@ -1,4 +1,7 @@
-<?php include('../partials/_header.php'); ?>
+<?php 
+$titre="Ajouter un animal";
+$carte=true;
+include('../partials/_header.php'); ?>
 
 <link rel="stylesheet" href="style.css"/>
 <link rel="stylesheet" href="../asset/normalize.css">
