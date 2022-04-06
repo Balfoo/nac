@@ -2,7 +2,7 @@
     <div class="bas container">
 
     <div class="fleche_haut">
-      <a href="#main-header" title="Aller en haut de la page"><img src="asset/img/fleche_haut.svg" alt="Aller en haut de la page"></a>
+      <a href="#main-header" ><img <?php if (isset($carte) == true) { echo('src="../asset/img/fleche_haut.svg"');} else {echo('src="asset/img/fleche_haut.svg"');} ?>title="Aller en haut de la page" alt="Aller en haut de la page"></a>
     </div>
         
       <nav class="liens">
@@ -15,9 +15,9 @@
       <div class="reseaux">
         <span>Réseaux : </span>
         <div>
-          <a href=""><img src="asset/img/logo-fb.svg" alt="Facebook"></a>
-          <a href=""><img src="asset/img/logo-tw.svg" alt="Twitter"></a>
-          <a href=""><img src="asset/img/logo-insta.svg" alt="Instagram"></a>
+          <a href=""><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-fb.svg"');} else {echo('src="asset/img/logo-fb.svg"');} ?> alt="Facebook"></a>
+          <a href=""><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-tw.svg"');} else {echo('src="asset/img/logo-tw.svg"');} ?> alt="Twitter"></a>
+          <a href=""><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-insta.svg"');} else {echo('src="asset/img/logo-insta.svg"');} ?> alt="Instagram"></a>
         </div>
       </div>
 
@@ -25,7 +25,7 @@
         <span>S'inscrire à la lettre d'information : </span>
         <form action="">
           <input class="recherche" type="text" placeholder="exemple@email.com">
-          <button><img src="asset/img/envoyer.svg" alt="Rechercher"></button>
+          <button><img <?php if (isset($carte) == true) { echo('src="../asset/img/envoyer.svg"');} else {echo('src="asset/img/envoyer.svg"');} ?>alt="Rechercher"></button>
         </form>
       </div>
 
