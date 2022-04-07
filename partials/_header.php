@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="asset/recherche_animaux.css">
     <link rel="stylesheet" href="asset/contact.css">
     <link rel="stylesheet" href="asset/actualite.css">
+    <link rel="stylesheet" href="asset/qu_es_ce_qu_un_nac.css">
 
     <!-- Carousel -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -28,8 +29,9 @@
 <body>
   <div>
   <div class="posisition-fixe">
+  
     <div class="bandeau_davertissement">
-      <p>Ce site est un projet fictif dans la cadre d’un projet d’étude</p>
+        <p class="avertissement">Ce site est un projet fictif dans la cadre d’un projet d’étude</p>
     </div>
 
     <header class="header" id="main-header">

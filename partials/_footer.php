@@ -14,9 +14,9 @@
 
       <div class="reseaux">
         <span>Réseaux : </span>
-        <div>
+        <div class="img_reseaux">
           <a href=""><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-fb.svg"');} else {echo('src="asset/img/logo-fb.svg"');} ?> alt="Facebook"></a>
-          <a href=""><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-tw.svg"');} else {echo('src="asset/img/logo-tw.svg"');} ?> alt="Twitter"></a>
+          <a href="https://www.youtube.com/channel/UCW9Kk343W9QsPje8cW_UnDw/featured"><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-yt.svg"');} else {echo('src="asset/img/logo-yt.svg"');} ?> alt="YouTube"></a>
           <a href=""><img <?php if (isset($carte) == true) { echo('src="../asset/img/logo-insta.svg"');} else {echo('src="asset/img/logo-insta.svg"');} ?> alt="Instagram"></a>
         </div>
       </div>

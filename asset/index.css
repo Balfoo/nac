@@ -137,6 +137,11 @@
   align-items: center;
   text-align: center;
   margin: 0 0.5rem;
+  transition: 100ms;
+}
+.selection-animaux>a:hover {
+  scale: 1.10;
+  transition: 100ms;
 }
 
 .selection-animaux>a>span {
@@ -171,16 +176,19 @@
   margin-top: 1rem;
 }
 
-.div-animaux .titre span::before, .div-animaux .titre span::after {
-  content:'';
+.div-animaux .titre span::before,
+.div-animaux .titre span::after {
+  content: '';
   width: 10vw;
-  border-bottom:rgba(255,255,255,0.3) solid;
-  display:inline-block;
-  vertical-align:middle;
+  border-bottom: rgba(255, 255, 255, 0.3) solid;
+  display: inline-block;
+  vertical-align: middle;
 }
+
 .div-animaux .titre span::before {
   margin-right: 1rem;
 }
+
 .div-animaux .titre span::after {
   margin-left: 1rem;
 }
@@ -204,7 +212,9 @@
   margin: 5rem auto;
 }
 
-
+.ques-qun-nac .video iframe {
+  border-radius: 10px;
+}
 
 @media (max-width:800px) {
 
@@ -220,6 +230,25 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "rongeurs" "oiseaux" "reptiles" "poissons";
+  }
+
+  .ques-qun-nac .video iframe {
+    /*bordure arrondi sur toutes les vidéos Youtube + responsive*/
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .ques-qun-nac .video {
+    /*div des vidéos*/
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
   }
 
 

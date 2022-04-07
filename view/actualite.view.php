@@ -13,7 +13,7 @@ include('partials/_header.php');
     <div class="carte_animaux">
         <h3 class="nom_animal_recherche">Avoir un nouvel animal de compagnie (Nac) : quelles sont les règles ?</h3>
         <span class="categorie">Règlementation</span>
-        <img src="asset\img\furets.jpg" alt="furet">
+        <img src="asset\img\cobra.jpg" alt="actu">
         <span class="description_derniers_ajouts">Les règles de détention d'un nouvel animal de compagnie (Nac) varient selon que l'animal appartient à une espèce domestique ou sauvage. </span>
         <div>
             <a href="https://www.service-public.fr/particuliers/vosdroits/F34922">Voir l'article></a>

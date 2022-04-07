@@ -10,7 +10,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
+  
 footer .bas {  display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 1fr;
@@ -34,11 +34,17 @@ footer .reseaux {
     margin: 1rem 0;
 }
 footer .reseaux img {
-    transition: 300ms;
+    margin: 0px 3px;
+    transition: 100ms;
 }
 footer .reseaux img:hover {
-    scale: 1.20;
-    transition: 300ms;
+    scale: 1.10;
+    transition: 100ms;
+}
+
+.img_reseaux {
+    display: flex;
+    align-items: center;
 }
   
 footer .lettre { 

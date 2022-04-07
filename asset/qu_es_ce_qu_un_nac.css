@@ -1,0 +1,15 @@
+.qu_es_ce_qu_un_nac .video iframe { /*bordure arrondi sur toutes les vidéos Youtube + responsive*/
+    border-radius: 10px;
+    left:0; 
+    top:0; 
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.qu_es_ce_qu_un_nac .video { /*div des vidéos*/
+    text-align: center;
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
