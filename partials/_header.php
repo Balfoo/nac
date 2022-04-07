@@ -44,8 +44,8 @@
         </div>
 
         <div class="header-toogle">
-          <a href="#main-header" class="header-toogle-open"><img src="asset/img/menu.svg" width="30" alt="Ouvrir Menu" /></a>
-          <a href="#" class="header-toogle-close"><img src="asset/img/cross.svg" width="30" alt="Fermer Menu" /></a>
+          <a href="#main-header" class="header-toogle-open"><img <?php if (isset($carte) == true) { echo('src=../asset/img/menu.svg');} else {echo('src=asset/img/menu.svg');} ?> width="30" alt="Ouvrir Menu" /></a>
+          <a href="#" class="header-toogle-close"><img <?php if (isset($carte) == true) { echo('src=../asset/img/cross.svg');} else {echo('src=asset/img/cross.svg');} ?> width="30" alt="Fermer Menu" /></a>
         </div>
 
           <div class="div2">
