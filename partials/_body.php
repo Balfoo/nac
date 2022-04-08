@@ -53,7 +53,7 @@
 
 <section class="ques-qun-nac">
 	<div class="container">
-		<h2>Qu'es ce qu'un NAC ?</h2>
+		<h2>Qu'est-ce qu'un NAC ?</h2>
 		<div class="div-qqnac">
 			<div>
 				<p>  Les Nouveaux Animaux de Compagnie (NAC) comprennent des animaux communs (rongeur, oiseau, poisson, poule...) au plus exotiques (serpent, araignées, lézard…) <br /><br />
